@@ -35,7 +35,7 @@ The dataset contains 15,000 company records. It includes company size, industry,
 
 The original numerical features have very weak correlation with annual revenue.
 
-![Target Correlation](readme_assets/target_correlation.png)
+![Target Correlation](target_correlation.png)
 
 Most original variables show correlations close to zero with annual revenue, indicating very weak predictive relationships. This means the available original variables do not explain annual revenue well.
 
@@ -45,7 +45,7 @@ This is important because the project PDF suggests stronger relationships, but t
 
 Annual revenue is spread across a wide range, from about 50 million to about 1,050 million.
 
-![Revenue Distribution](readme_assets/revenue_distribution.png)
+![Revenue Distribution](revenue_distribution.png)
 
 The revenue distribution is almost symmetric. It does not need a log transformation.
 
@@ -53,7 +53,7 @@ The revenue distribution is almost symmetric. It does not need a log transformat
 
 Outliers were checked using both IQR and Z-score methods.
 
-![Outlier Boxplots](readme_assets/outlier_boxplots.png)
+![Outlier Boxplots](outlier_boxplots.png)
 
 Both methods showed zero outliers in the original numerical variables. Because of this, no outlier treatment was required.
 
@@ -97,7 +97,7 @@ The tested models include:
 
 The poor performance was consistent across all models, suggesting that the limitation comes from the available features rather than the choice of algorithm.
 
-![Model Comparison](readme_assets/model_comparison.png)
+![Model Comparison](model_comparison.png)
 
 The best model was Linear Regression, but the R2 score was still close to zero:
 
