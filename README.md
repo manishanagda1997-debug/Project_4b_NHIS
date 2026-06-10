@@ -118,10 +118,9 @@ The project demonstrates the importance of feature quality in machine learning, 
 
 ## Files
 
-- `Untitled1.ipynb`: main analysis notebook
+- `EDA and Revenue Forecasting on Industry Data.ipynb`: main analysis notebook
 - `README.md`: project summary
-- `readme_assets/`: images used in the README
-
+- `EDA and Revenue Forecasting on Industry Data.pptx`: presentation file
 ---
 
 ### Author
